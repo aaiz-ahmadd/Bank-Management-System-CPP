@@ -197,7 +197,7 @@ int main(){
             }
 
             if(bank.withdrawFromAccount(acc_number, amount) > 0){
-                cout << "Withrawal Successful!" << endl;
+                cout << "Withdrawal Successful!" << endl;
                 cout << "Results after Withdrawal: " << endl;
                 bank.displayAllAccounts();
             }
